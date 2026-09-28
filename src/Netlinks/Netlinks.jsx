@@ -65,7 +65,7 @@ export default function Netlinks() {
 <p>Odoo <br />implementations</p>
 </div>
 <div className="after">
-<h1>20 <br />yrs</h1>
+<h1>20 <br /><br />yrs</h1>
 <p>US-HQ <br />delivery</p>
 </div>
 </div>
@@ -423,25 +423,25 @@ software, they<span className="aap">rebuilt how our <br />
 <section>
 <div class="school">
 <p>, Questions</p>
-<h1>Odoo CRM, frequently asked.</h1></div>
+<h1>Answers to what CIOs actually ask.</h1></div>
 <div class="jk">
 <div class="nora">
-<h2>Can we migrate from HubSpot or Salesforce?</h2>
+<h2>What does NETLINKS do?</h2>
 <div class="zero">+</div>
 </div>
 
 <div class="nora">
-<h2>Does it handle complex B2B sales with multiple stakeholders?</h2>
+<h2>How experienced is NETLINKS with Odoo?</h2>
 <div class="zero">+</div>
 </div>
 
 <div class="nora">
-<h2>How does forecasting work?</h2>
+<h2>What industries does NETLINKS serve?</h2>
 <div class="zero">+</div>
 </div>
 
 <div class="nora">
-<h2>What about lead scoring?</h2>
+<h2>How does an engagement with NETLINKS start?</h2>
 <div class="zero">+</div>
 </div>
 
@@ -449,26 +449,16 @@ software, they<span className="aap">rebuilt how our <br />
 <h2>Can reps use it on mobile?</h2>
 <div class="zero">+</div>
 </div>
-
-<div class="nora">
-<h2>What about call recording and conversation intelligence?</h2>
-<div class="zero">+</div>
-</div>
-
-<div class="nora">
-<h2>Does it include marketing automation?</h2>
-<div class="zero">+</div>
-</div>
 </div>
 </section>
 <section>
 <div class="porple">
 <div class="porple1">
-<h1>Sales pipeline a mess?</h1>
-<p>30-min CRM rollout call with a senior architect. We map the <br />
- pipeline and quote a fixed-fee plan in 5 business days.</p></div>
+<h1>Talk to a senior architect <br /> this week.</h1>
+<p>30-minute call. Walk away with a phased plan and fixed-fee <br />
+scoping in 5 business days.</p></div>
  <div class="porplebtn">
- <button>Talk to a CRM arcthitect</button>
+ <button>Book a 30-mins discovery call</button>
 </div>
 </div>
 </section>
