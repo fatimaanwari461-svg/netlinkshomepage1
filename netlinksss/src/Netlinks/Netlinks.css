@@ -1,0 +1,1112 @@
+
+
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+}
+.omid{
+    display: flex;
+    gap: 3rem;
+}
+.image img{
+   width: 150px;
+   height: 20px;
+}
+.omid a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+
+}
+.omid :hover{
+color:rgb(120, 75, 120) ;
+padding: 10px 15px;
+background-color: rgb(233, 216, 248);
+border-radius: 20px;
+display: block;
+}
+.btnnav a{
+color: rgb(255, 255, 255);
+padding: 14px 22px;
+border-radius: 30px;
+border: none;
+background-color: rgb(103, 55, 103);
+text-decoration: none;
+}
+.btnnav :hover{
+box-shadow: 10px 10px 40px rgb(152, 151, 151);
+}
+
+.book{
+padding: 20px;
+ display: flex; 
+justify-content: space-between;  
+ margin-top: 40px;
+font-size: 27px;
+}
+
+.aap{
+color:rgb(103, 55, 103) ;
+
+}
+.nene img{
+    width: 600px;
+    height: 500px;
+}
+.beto{
+border-radius: 20px;
+padding: 6px 15px;
+border: 1px solid #d8d7d7;
+background-color: white;
+}
+.bn{
+color: aliceblue;
+background-color:rgb(103, 55, 103) ;
+padding: 11px 18px;
+border-radius: 30px;
+border: none;
+text-decoration: none;
+font-size: 17px;
+}
+
+.bn:hover{
+box-shadow: 10px 10px 40px rgb(152, 151, 151);
+
+}
+.pp{
+    font-size: 19px;
+    color: rgb(106, 106, 106);
+}
+.bo{
+color: rgb(0, 0, 0);
+background-color:rgb(255, 255, 255) ;
+padding: 11px 18px;
+border-radius: 30px;
+margin: 10px;
+border: 1px solid #c8c6c6;
+text-decoration: none;
+font-size: 17px;
+}
+.bo:hover{
+background-color: #f0efef;
+
+}
+.hro{
+   border: 1px solid #ebe9e9;
+}
+.befor{
+display: flex;
+gap: 3rem;
+margin-left:20px;
+position: relative;
+bottom:60px;
+line-height: 17px;
+}
+.after p{
+    color: #484747;
+    font-size: 15px;
+}
+
+
+.move {
+    width: 100%;
+    overflow: hidden;
+    background-color: #eeeeee;
+    height: 140px;
+    line-height: 18px;
+}
+
+.move1 {
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+place-items: center;
+    animation: scroll 20s linear infinite;
+}
+
+.slide1 {
+    width: 200px;
+    height: 50px;
+
+    flex: 0 0 200px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide1 img {
+   width: 300px;
+    height: 100%;
+ 
+    object-fit: contain;
+width:200px;
+height: 100px;
+    display: block;
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+.pop{
+text-align: center;
+top: 10px;
+color: #696868;
+
+}
+.nawid{
+display: flex;
+  margin-top: 80px;
+gap: 5rem;
+margin-left: 20px;
+}
+.nan{
+    margin-left: 200px;
+    font-size: 19px;
+    line-height: 25px;
+    color: #504f4f;
+}
+
+.non{
+    font-size: 24px;
+}
+.bord{
+display: flex;
+justify-content: space-between;
+  line-height: 24px;
+  margin-left: 25px;
+  border: 1px solid #ddd;
+  flex-wrap: wrap;
+  width: 94%;
+  border-radius: 20px;
+ overflow: hidden;
+ height: auto;
+}
+.what{
+    margin-left: 10px; 
+}
+.what a{
+text-decoration: none;
+color: black;
+
+}
+.bord :hover{
+background-color: #f3f3f3;
+
+}
+
+.mr{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.bebe{
+    font-size: 28px;
+}
+.what p{
+    font-size: 14px;
+    color: #484747;
+}
+.sec{
+display: flex;
+gap:0.5rem ;
+ border-right: 1px solid #ddd;
+ border-bottom: 1px solid #ddd;
+ 
+
+padding: 23px;
+
+}
+
+
+
+.seso a{
+border: 1px solid #ddd;
+   border-radius: 50%;
+width: 30px;
+height: 30px;
+margin-top: 30px;
+text-align: center;
+font-size: 30px;
+text-decoration: none;
+
+}
+.mojib{
+display: flex;
+margin-left: 20px;
+justify-content: space-between;
+margin-top: 90px;
+}
+.seco{
+background-color: rgb(241, 240, 240);
+height: auto;
+
+}
+.nor{
+padding: 10px 15px;
+border-radius: 20px;
+border: 1px solid #b4b2b2;
+margin-top: 30px;
+text-decoration: none;
+color: black;
+}
+.nor:hover{
+    color: black;
+    background-color: #e7e7e7;
+}
+.moj img{
+ width: 650px;
+    height: 540px;
+}
+.moj h1{
+    font-size: 45px;
+    line-height: 45px;
+}
+.moj{
+margin-top: 50px;
+line-height: 20px;
+}
+.moj p{
+    font-size: 17px;
+    color: #504f4f;
+}
+.aziz{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+   margin-top: 70px;
+}
+.noria img{
+
+width: 650px;
+    height: 540px;
+
+
+
+
+}
+.cv{
+padding: 10px 15px;
+border-radius: 20px;
+border: 1px solid #b4b2b2;
+margin-top: 30px;
+text-decoration: none;
+color: black;
+}
+.cv:hover{
+    color: black;
+    background-color: #e7e7e7;
+}
+.ses{
+    font-size: 20px;
+}
+.noria p{
+    font-size: 17px;
+    color: #504f4f;
+}
+.azi{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+   margin-top: 70px;
+}
+.nori img{
+width: 650px;
+    height: 540px;
+}
+.nori p{
+    font-size: 17px;
+    color: #504f4f;
+}
+.my{
+    display: flex;
+    gap: 10rem;
+    margin-left: 60px;
+}
+.xvv{
+    margin-left: 60px;
+}
+.xv h1{
+    font-size: 40px;
+}
+.xv p{
+    font-size: 19px;
+     color: #504f4f;
+}
+.kok{
+display: flex;
+gap: 4rem;
+margin-top: 30px;
+margin-left: 20px;
+}
+.ser{
+    font-size: 30px;
+    margin-left: 330px;
+}
+.fg{
+    display: flex;
+    justify-content: space-between;
+}
+.ko{
+  transition: transform 0.2s ease;
+}
+
+.ko:hover {
+  transform: translateX(13px);
+}
+.party{
+background-color: #f4e9ff;
+height: 420px;
+
+}
+.lkj{
+margin-top: 90px;
+text-align: center;
+}
+.lkj h1{
+
+font-size: 45px;
+margin-top: 20px;
+
+}
+.node{
+    margin-top: 70px;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.school{
+    margin-left:40px;
+   margin-top: 50px;
+}
+.school p{
+    color:#767373;
+    margin-top: 20px;
+}
+.jk{
+    width: 90%;
+    max-width: 1500px;
+    margin: 70px auto;
+}
+.nora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px;
+    border-top: 1px solid #d8d8d8;
+}
+.nora:last-child{
+    border-bottom: 1px solid #d8d8d8;
+}
+.nora h2{
+    font-size: 20px;
+    font-weight: 110px;
+    color: #222;
+}
+.zero{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #444;
+    cursor: pointer;
+}
+.porple{
+    text-align: center;
+    margin-top: 80px;
+background-color: #946fb8;
+width: 1150px;
+height: 340px;
+border-radius: 20px;
+justify-content: center;
+padding:10px;
+margin-left: 40px;
+}
+.porple1 h1{
+font-size: 55px;
+color: white;
+}
+.porple1 p{
+color: white;
+font-size: 18px;
+}
+.porplebtn button{
+padding: 11px 30px ;
+border: none;
+border-radius: 25px;
+text-decoration: none;
+background-color: white;
+color: #684886;
+margin-top: 30px;
+}
+footer{
+    margin-top: 80px;
+}
+.foot{
+    border-top: 1px solid #ddd;
+    display: flex;
+gap: 5rem;
+  padding: 20px;
+}
+.foot img{
+    margin-top: 40px;
+    width: 160px;
+}
+.ende{
+color: #767373;
+}
+.nawi{
+    display: flex;
+gap: 2rem;
+}
+.nawid1 img{
+width: 30px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid #ddd;
+padding: 6px;
+margin-top: 40px;
+}
+
+.ende{
+    line-height: 1.8;
+    color: gray;
+}
+.ende a:hover{
+    color: black;
+}
+.ende a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+.ende p{
+    font-size: 14px;
+}
+.last{
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: gray;
+    font-size: 13px;
+}
+.part a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* ---------- Tablet / iPad ---------- */
+@media (max-width: 1024px) {
+
+    .navbar {
+        width: 95%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .omid {
+        gap: 1.5rem;
+    }
+
+    .omid a {
+        font-size: 16px;
+    }
+
+    .book {
+        padding: 20px;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .book h1 {
+        font-size: 38px;
+    }
+
+    .nene img {
+        width: 450px;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .befor {
+        gap: 2rem;
+        margin-left: 20px;
+        bottom: 30px;
+    }
+
+    .nawid {
+        gap: 2rem;
+        margin-left: 20px;
+    }
+
+    .nan {
+        margin-left: 50px;
+    }
+
+    .bord {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    .sec {
+        width: 50%;
+    }
+
+    .mojib {
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    .moj img,
+    .noria img,
+    .nori img {
+        width: 480px;
+        height: 420px;
+        object-fit: contain;
+    }
+
+    .moj h1 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .aziz,
+    .azi {
+        gap: 30px;
+        align-items: center;
+    }
+
+    .my {
+        gap: 4rem;
+        margin-left: 30px;
+    }
+
+    .kok {
+        gap: 2rem;
+    }
+
+    .ser {
+        margin-left: 150px;
+    }
+
+    .porple {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foot {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+
+    .navbar {
+        width: 94%;
+        margin: 15px auto;
+        padding: 12px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .image img {
+        width: 120px;
+        height: auto;
+    }
+
+    .omid {
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .omid a {
+        font-size: 15px;
+    }
+
+    .btnnav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .btnnav a {
+        display: inline-block;
+        padding: 11px 18px;
+    }
+
+
+    /* HERO */
+
+    .book {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 30px;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .book h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .pp {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .nene {
+        width: 100%;
+    }
+
+    .nene img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .beto {
+        padding: 5px 12px;
+    }
+
+    .bn,
+    .bo {
+        display: inline-block;
+        margin: 5px;
+    }
+
+
+    /* BEFORE */
+
+    .befor {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 20px;
+        bottom: 0;
+    }
+
+
+    /* MOVING LOGOS */
+
+    .move {
+        height: 120px;
+    }
+
+    .move1 {
+        gap: 10px;
+    }
+
+    .slide1 {
+        width: 160px;
+        height: 80px;
+        flex: 0 0 160px;
+    }
+
+    .slide1 img {
+        width: 160px;
+        height: 80px;
+    }
+
+
+    /* ABOUT */
+
+    .nawid {
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px 20px 0;
+    }
+
+    .nan {
+        margin-left: 0;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .non {
+        font-size: 22px;
+    }
+
+
+    /* BORDER CARDS */
+
+    .bord {
+        width: 92%;
+        margin: 30px auto;
+        display: flex;
+    }
+
+    .sec {
+        width: 100%;
+        border-right: none;
+        padding: 20px;
+    }
+
+    .what {
+        margin-left: 5px;
+    }
+
+    .bebe {
+        font-size: 23px;
+    }
+
+
+    /* IMAGE SECTIONS */
+
+    .mojib {
+        flex-direction: column;
+        margin: 50px 20px 0;
+        gap: 30px;
+    }
+
+    .moj {
+        margin-top: 0;
+    }
+
+    .moj img,
+    .noria img,
+    .nori img {
+        width: 100%;
+        height: auto;
+        max-width: 650px;
+    }
+
+    .moj h1 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .moj p,
+    .noria p,
+    .nori p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* OTHER IMAGE SECTIONS */
+
+    .aziz,
+    .azi {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .aziz .noria,
+    .azi .nori {
+        width: 100%;
+    }
+
+
+    /* MY SECTION */
+
+    .my {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .xvv {
+        margin-left: 0;
+    }
+
+    .xv h1 {
+        font-size: 32px;
+    }
+
+    .xv p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .kok {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .ser {
+        margin-left: 20px;
+        font-size: 26px;
+    }
+
+    .fg {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    /* PURPLE SECTION */
+
+    .party {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .lkj {
+        margin-top: 30px;
+    }
+
+    .lkj h1 {
+        font-size: 35px;
+    }
+
+    .node {
+        margin-top: 40px;
+        font-size: 70px;
+    }
+
+
+    /* FAQ */
+
+    .school {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+    }
+
+    .jk {
+        width: 92%;
+        margin: 50px auto;
+    }
+
+    .nora {
+        gap: 15px;
+    }
+
+    .nora h2 {
+        font-size: 17px;
+    }
+
+    .zero {
+        flex-shrink: 0;
+    }
+
+
+    /* PURPLE CTA */
+
+    .porple {
+        width: 92%;
+        height: auto;
+        min-height: 300px;
+        margin: 60px auto 0;
+        padding: 30px 20px;
+    }
+
+    .porple1 h1 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .porple1 p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        margin-top: 60px;
+    }
+
+    .foot {
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px 20px;
+    }
+
+    .foot img {
+        margin-top: 10px;
+        width: 140px;
+    }
+
+    .nawi {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nawid1 img {
+        margin-top: 10px;
+    }
+
+    .last {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+
+/* ---------- Small Mobile ---------- */
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .image img {
+        width: 110px;
+    }
+
+    .omid {
+        gap: 10px;
+    }
+
+    .omid a {
+        font-size: 14px;
+    }
+
+    .btnnav a {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .book {
+        padding: 15px;
+    }
+
+    .book h1 {
+        font-size: 28px;
+    }
+
+    .pp {
+        font-size: 15px;
+    }
+
+    .nene img {
+        width: 100%;
+        height: auto;
+    }
+
+    .befor {
+        margin: 15px;
+        gap: 15px;
+    }
+
+    .befor p {
+        font-size: 14px;
+    }
+
+    .nawid {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nan {
+        font-size: 16px;
+    }
+
+    .bebe {
+        font-size: 21px;
+    }
+
+    .moj h1 {
+        font-size: 30px;
+    }
+
+    .moj p,
+    .noria p,
+    .nori p {
+        font-size: 15px;
+    }
+
+    .xv h1 {
+        font-size: 28px;
+    }
+
+    .ser {
+        font-size: 23px;
+    }
+
+    .lkj h1 {
+        font-size: 30px;
+    }
+
+    .node {
+        font-size: 55px;
+    }
+
+    .porple1 h1 {
+        font-size: 30px;
+    }
+
+    .porple1 p {
+        font-size: 15px;
+    }
+
+    .nora h2 {
+        font-size: 15px;
+    }
+
+    .zero {
+        width: 28px;
+        height: 28px;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
