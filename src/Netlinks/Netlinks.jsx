@@ -65,7 +65,7 @@ export default function Netlinks() {
 <p>Odoo <br />implementations</p>
 </div>
 <div className="after">
-<h1>20 <br /><br />yrs</h1>
+<h1>20 <br />yrs</h1>
 <p>US-HQ <br />delivery</p>
 </div>
 </div>
